@@ -6,7 +6,7 @@
 
 ## Fastq Mapping
 ## BQSR
-* __[Process of BQSR]__(http://zenfractal.com/2014/01/25/bqsr/)， An introduction to how BQSR works.
+* [Process of BQSR](http://zenfractal.com/2014/01/25/bqsr/)，An introduction to how BQSR works.
 ##
 - ABC
 收款方式看
