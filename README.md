@@ -1,8 +1,8 @@
 # DNA-Seq-Analysis
 ## Fastq QC
 ### QC Tools
-* [seqtk fqchk] https://blog.liang2.tw/posts/2015/09/seqtk/
-* [fastqc] https://github.com/s-andrews/FastQC
+* [seqtk fqchk](https://blog.liang2.tw/posts/2015/09/seqtk/)
+* [fastqc](https://github.com/s-andrews/FastQC)
 
 ## Fastq Mapping
 ## BQSR
