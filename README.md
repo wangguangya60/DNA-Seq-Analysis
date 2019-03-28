@@ -18,3 +18,7 @@
 ## Coverage Bias
 * [Characterizing and measuring bias in sequence data](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-5-r51)
 * [stratification-bed-files](https://github.com/ga4gh/benchmarking-tools/tree/master/resources/stratification-bed-files)
+
+## Good Blogs or Websites
+* [Helix blog](https://blog.helix.com/blog/)
+
