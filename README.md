@@ -22,3 +22,6 @@
 ## Good Blogs or Websites
 * [Helix blog](https://blog.helix.com/blog/)
 
+
+## Copy number variants
+* [CNVkit](https://github.com/etal/cnvkit)
