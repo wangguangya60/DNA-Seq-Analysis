@@ -25,3 +25,7 @@
 
 ## Copy number variants
 * [CNVkit](https://github.com/etal/cnvkit)
+
+## Bentchmarking
+* [scikit-allel](https://scikit-allel.readthedocs.io/en/stable/stats/mendel.html), a toolkit for genome variation analysis and visualization
+* [scikit-allel Author's blog](https://alimanfoo.github.io/)
