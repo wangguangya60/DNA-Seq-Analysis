@@ -18,7 +18,7 @@
 ## Coverage Bias
 * [Characterizing and measuring bias in sequence data](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-5-r51)
 * [stratification-bed-files](https://github.com/ga4gh/benchmarking-tools/tree/master/resources/stratification-bed-files)
-* [tetoolkit](https://github.com/mhammell-laboratory/tetoolkit), Analyse transposable element(TE) in genome
+* [tetoolkit](https://github.com/mhammell-laboratory/tetoolkit), Analyse transposable element in genome. [Transposable elements drive widespread expression of oncogenes in human cancers](https://sci-hub.tw/10.1038/s41588-019-0373-3)
 
 ## Good Blogs or Websites
 * [Helix blog](https://blog.helix.com/blog/)
