@@ -18,6 +18,7 @@
 ## Coverage Bias
 * [Characterizing and measuring bias in sequence data](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-5-r51)
 * [stratification-bed-files](https://github.com/ga4gh/benchmarking-tools/tree/master/resources/stratification-bed-files)
+* [tetoolkit](https://github.com/mhammell-laboratory/tetoolkit), Analyse transposable element(TE) in genome
 
 ## Good Blogs or Websites
 * [Helix blog](https://blog.helix.com/blog/)
@@ -29,3 +30,4 @@
 ## Bentchmarking
 * [scikit-allel](https://scikit-allel.readthedocs.io/en/stable/stats/mendel.html), a toolkit for genome variation analysis and visualization
 * [scikit-allel Author's blog](https://alimanfoo.github.io/)
+
