@@ -31,3 +31,6 @@
 * [scikit-allel](https://scikit-allel.readthedocs.io/en/stable/stats/mendel.html), a toolkit for genome variation analysis and visualization
 * [scikit-allel Author's blog](https://alimanfoo.github.io/)
 
+## Exome
+* [CCDS GRch37](ftp://ftp.ncbi.nih.gov/pub/CCDS/archive/Hs37.3/)
+* [ensembl](http://asia.ensembl.org/Homo_sapiens/Gene/Summary?db=core;g=ENSG00000221957;r=19:54832676-54848569) a useful database for search gene and exome coordinate
