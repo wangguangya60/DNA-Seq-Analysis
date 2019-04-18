@@ -7,6 +7,21 @@
 ## Fastq Mapping
 ## BQSR
 * [Process of BQSR](http://zenfractal.com/2014/01/25/bqsr/)，An introduction to how BQSR works.
+## Tips about depth statistics
+the difference between pysam.depth() and pysam.pileup()
+
+depth: " compute the per-base depth"
+mpileup: "the number of reads covering the site" 
+
+depth: bases cover at each position
+pileup: reads cover at each position
+
+pileup do much filtering -Q -q -A, while depth does not 
+
+samtools bedcov  skip duplicates
+samtools multicov provide args for QC,duplicates filtering
+
+
 ##
 - ABCD
 收款方式看
