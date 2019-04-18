@@ -8,7 +8,7 @@
 ## BQSR
 * [Process of BQSR](http://zenfractal.com/2014/01/25/bqsr/)，An introduction to how BQSR works.
 ##
-- ABC
+- ABCD
 收款方式看
     - DEf
         路径发来说是离开三  
