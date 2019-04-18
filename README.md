@@ -21,6 +21,8 @@ pileup do much filtering -Q -q -A, while depth does not
 samtools bedcov  skip duplicates
 samtools multicov provide args for QC,duplicates filtering
 
+[a post explaining about this](https://www.biostars.org/p/195497/)
+
 
 ##
 - ABCD
