@@ -23,15 +23,13 @@ samtools multicov provide args for QC,duplicates filtering
 
 [a post explaining about this](https://www.biostars.org/p/195497/)
 
+## Careful about depth of coverage of Overlapping Paired-End Reads
+* [samtools mpileup](https://www.biostars.org/p/87299/#284421) count 1x for overlaping position by default, but can count 2x using "-x" (sets overlaping bases quality to zero), so using -Q 1 to filter
+* [samtools depth](https://www.biostars.org/p/323047/) counts each mate separately, means 2x, but can using sambamba depth with "--fix-mate-overlaps" to avoid double-counting
+## to calculate fragment length
+* For [pysam](https://www.biostars.org/p/312885/), using "record.template_length"
+* For samtools, using records in the 9th column of a bam
 
-##
-- ABCD
-收款方式看
-    - DEf
-        路径发来说是离开三  
-        sfsla
-       - 234
-       说法加了撒可富
 ## Coverage Bias
 * [Characterizing and measuring bias in sequence data](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-5-r51)
 * [stratification-bed-files](https://github.com/ga4gh/benchmarking-tools/tree/master/resources/stratification-bed-files)
