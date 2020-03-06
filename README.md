@@ -13,6 +13,9 @@
 * [fastqc](https://github.com/s-andrews/FastQC)
 
 ## Fastq Mapping
+## BAM format
+* [supplementary and secondary alignments](https://www.cnblogs.com/timeisbiggestboss/p/8856888.html)
+
 ## BQSR
 * [Process of BQSR](http://zenfractal.com/2014/01/25/bqsr/)，An introduction to how BQSR works.
 ## Tips about depth statistics
