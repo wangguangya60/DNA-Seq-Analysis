@@ -30,14 +30,14 @@ pileup: reads cover at each position
 pileup do much filtering -Q -q -A, while depth does not 
 
 ## Tips about depth statistics - SAMTOOLS
-samtools mpileup DEFAULT skip [[UNMAP,SECONDARY,QCFAIL,DUP] and only with [PROPER_PAIR] (this is not written in doc).
-Note: -rf, -ff is not the same as samtools view -r, -f
+* samtools mpileup DEFAULT skip [[UNMAP,SECONDARY,QCFAIL,DUP] and only with [PROPER_PAIR] (this is not written in doc).
+* Note: -rf, -ff is not the same as samtools view -r, -f
 
-samtools bedcov  DEFAULT skip [UNMAP,SECONDARY,QCFAIL,DUP]
-samtools multicov provide args for QC,duplicates filtering
+* samtools bedcov  DEFAULT skip [UNMAP,SECONDARY,QCFAIL,DUP]
+* samtools multicov provide args for QC,duplicates filtering
 
 
-[a post explaining about this](https://www.biostars.org/p/195497/)
+* [a post explaining about this](https://www.biostars.org/p/195497/)
 
 ## Careful about depth of coverage of Overlapping Paired-End Reads
 * [samtools mpileup](https://www.biostars.org/p/87299/#284421) count 1x for overlaping position by default, but can count 2x using "-x" (sets overlaping bases quality to zero), so using -Q 1 to filter
