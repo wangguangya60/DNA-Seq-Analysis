@@ -18,7 +18,7 @@
 * [SA tag](https://www.biostars.org/p/116201/) indicate chimeric reads (split reads)
 ## BQSR
 * [Process of BQSR](http://zenfractal.com/2014/01/25/bqsr/)，An introduction to how BQSR works.
-## Tips about depth statistics
+## Tips about depth statistics - PYSAM
 the difference between pysam.depth() and pysam.pileup()
 
 depth: " compute the per-base depth"
@@ -29,8 +29,13 @@ pileup: reads cover at each position
 
 pileup do much filtering -Q -q -A, while depth does not 
 
-samtools bedcov  skip duplicates
+## Tips about depth statistics - SAMTOOLS
+samtools mpileup DEFAULT skip [[UNMAP,SECONDARY,QCFAIL,DUP] and only with [PROPER_PAIR] (this is not written in doc)
+Note: -rf, -ff is not the same as samtools view -r, -f
+
+samtools bedcov  DEFAULT skip [UNMAP,SECONDARY,QCFAIL,DUP]
 samtools multicov provide args for QC,duplicates filtering
+
 
 [a post explaining about this](https://www.biostars.org/p/195497/)
 
