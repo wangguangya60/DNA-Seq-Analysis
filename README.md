@@ -30,7 +30,7 @@ pileup: reads cover at each position
 pileup do much filtering -Q -q -A, while depth does not 
 
 ## Tips about depth statistics - SAMTOOLS
-samtools mpileup DEFAULT skip [[UNMAP,SECONDARY,QCFAIL,DUP] and only with [PROPER_PAIR] (this is not written in doc)
+samtools mpileup DEFAULT skip [[UNMAP,SECONDARY,QCFAIL,DUP] and only with [PROPER_PAIR] (this is not written in doc).
 Note: -rf, -ff is not the same as samtools view -r, -f
 
 samtools bedcov  DEFAULT skip [UNMAP,SECONDARY,QCFAIL,DUP]
