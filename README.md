@@ -44,11 +44,13 @@ samtools depth DEFAULT skip [[UNMAP,SECONDARY,QCFAIL,DUP]
 ## samtools bedcov
 * samtools bedcov DEFAULT skip [UNMAP,SECONDARY,QCFAIL,DUP]
 * samtools multicov provide args for QC,duplicates filtering
+* [a post explaining about this](https://www.biostars.org/p/195497/)
 
 ## deeptools
 * provide fragment coverage, extend paired reads to a whole fragment (proper for peak calling at e.g., nucleosome footprint, TSS, TFBS)
 
-* [a post explaining about this](https://www.biostars.org/p/195497/)
+![7dkOV](https://user-images.githubusercontent.com/28535831/169741133-7168fdd1-6fbb-483e-be1f-caf5a023ca03.png)
+
 
 ## Careful about depth of coverage of Overlapping Paired-End Reads
 * [samtools mpileup](https://www.biostars.org/p/87299/#284421) count 1x for overlaping position by default, but can count 2x using "-x" (sets overlaping bases quality to zero), so using -Q 1 to filter
