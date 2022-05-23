@@ -46,7 +46,7 @@ samtools depth DEFAULT skip [[UNMAP,SECONDARY,QCFAIL,DUP]
 * samtools multicov provide args for QC,duplicates filtering
 
 ## deeptools
-* provide fragment coverage (proper for peak calling at e.g., nucleosome footprint, TSS, TFBS)
+* provide fragment coverage, extend paired reads to a whole fragment (proper for peak calling at e.g., nucleosome footprint, TSS, TFBS)
 
 * [a post explaining about this](https://www.biostars.org/p/195497/)
 
