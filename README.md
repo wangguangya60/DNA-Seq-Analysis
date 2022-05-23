@@ -49,7 +49,7 @@ samtools depth DEFAULT skip [[UNMAP,SECONDARY,QCFAIL,DUP]
 ## deeptools
 * provide fragment coverage, extend paired reads to a whole fragment (proper for peak calling at e.g., nucleosome footprint, TSS, TFBS)
 
-![7dkOV](https://user-images.githubusercontent.com/28535831/169741133-7168fdd1-6fbb-483e-be1f-caf5a023ca03.png)
+![Picture1](https://user-images.githubusercontent.com/28535831/169742275-974a06f8-c563-4223-a4e5-84d29c152ed1.png)
 
 
 ## Careful about depth of coverage of Overlapping Paired-End Reads
