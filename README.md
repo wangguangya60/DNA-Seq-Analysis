@@ -22,11 +22,11 @@
 cat bam.list.WGA|shuf | while read sample bam  
 do  
     i=$sample  
-    samtools collate -Oun128 $bam | /lustre/home/wanggy/Software/samtools fastq -OT RG,BC - \
-  | bwa mem -k 25 -I 100,100,600,0 -pt8 /lustre/wanggy/ref/T2T-CHM13v2.0/chm13v2.0.fa - \
-  | samtools sort -@8 -o ${i}.sort.bam -
-    fi;
-done;
+    samtools collate -Oun128 $bam | /lustre/home/wanggy/Software/samtools fastq -OT RG,BC - \ 
+  | bwa mem -k 25 -I 100,100,600,0 -pt8 /lustre/wanggy/ref/T2T-CHM13v2.0/chm13v2.0.fa - \ 
+  | samtools sort -@8 -o ${i}.sort.bam - 
+    fi; 
+done; 
 
 ## BQSR
 * [Process of BQSR](http://zenfractal.com/2014/01/25/bqsr/)，An introduction to how BQSR works.
