@@ -58,6 +58,10 @@ samtools depth DEFAULT skip [[UNMAP,SECONDARY,QCFAIL,DUP]
 * samtools multicov provide args for QC,duplicates filtering
 * [a post explaining about this](https://www.biostars.org/p/195497/)
 
+## GATK Pileup
+* gatk Pileup "Double-counting coverage of overlapped read pairs". it gives exactly the same depth as samtools depth with default parameters.
+* The depth is close to the DP value in VCF produced from GATK HaplotypeCaller. 
+
 ## deeptools
 * provide fragment coverage, extend paired reads to a whole fragment (proper for peak calling at e.g., nucleosome footprint, TSS, TFBS)
 
